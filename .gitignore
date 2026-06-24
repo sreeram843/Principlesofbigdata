@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Data & outputs
+data/raw/
+data/processed/
+data/output/
+*.jsonl
+!data/sample/reddit_sample.jsonl
+
+# Spark / Hadoop
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Legacy Scala build artifacts
+Source/**/target/
+Source/**/.idea/
+
+# OS / IDE
+.DS_Store
+.idea/
+*.crc
+_SUCCESS
+part-*
+
+# Models
+models/
+*.model/
